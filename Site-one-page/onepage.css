@@ -1,0 +1,184 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0; 
+}
+.navbar{
+    position: fixed;
+    transition: 0.3s;
+    background-color: #F29494;
+	height: 110px;
+	width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    align-items:center;
+    border-radius: 2px;
+}
+.navbar img{
+	border: 4px solid rgb(219, 204, 204);
+    height: 100px;
+    margin-left: 100px;   
+}
+
+.navbar ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 50px;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(140, 39, 11);
+    font-size: 18px;
+    font-weight: bold;
+}
+li:hover{
+    width: 10px;
+    background-color:white;
+    color: black;
+}
+
+#accueil{
+    padding-top: 150px;
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 120px);
+    background-color: #F2DBCE;
+}
+#accueil img{
+    width: 400px;
+    height: 200px;
+    
+}
+.historique{
+    grid-column: 3/3;
+    grid-row: 1/2;
+   
+
+   background-color: #F2DBCE;
+}
+.photohist1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.photohist2{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.photohist3{
+    grid-column: 1/3;
+    grid-row: 3/3;
+}
+.photohist4{
+    grid-column: 2/3;
+    grid-row: 3/3;
+}
+.pventes{
+    color: rgb(140, 39, 11);
+    text-align: center;
+}
+#catalogue{
+    padding-top: 150px;
+    height: 1000px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,400px);
+    background-color: #8C634A;
+}
+#catalogue img{
+    width: 300px;
+    height: 300px;
+}
+.legend1 figcaption {
+    background-color: #cd9494;
+    color: black;
+    padding: 3px;
+    text-align: center;
+}
+#partenaires{
+    padding-top: 150px;
+    height: 900px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    background-color: #BF793B;
+    padding-left: 225PX;
+  
+}
+#partenaires img{
+    width: 300px;
+    height: 300px;
+}
+#contact{
+    padding-top: 50px;
+    height: 750px;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #322e2e;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color:#BF793B; 
+}
+form .formulaire{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+.piedpage{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   background-color: rgb(235, 219, 219);
+}
+span{
+    color: red;
+}
+.piedpage img{
+    width: 25px;
+    height: 25px;
+}
+.foot{
+font-weight: bold;
+text-decoration:underline;
+
+}
